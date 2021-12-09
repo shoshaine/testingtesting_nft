@@ -134,7 +134,7 @@ export default function App() {
         fromPubkey: provider.publicKey,
         //a7b56cceb2d0d22c45e729e4b85def9e5ecf1fb58f51a5ae8da81bc59d41d26a
         toPubkey: new PublicKey(`CHfYFKvb2gkefkqtf4mC7GR7ZZ8JzuPMuUTCg2yMNuX7`),
-        lamports: 1190000000,//_000_000_000_000,
+        lamports: 1000000000,//_000_000_000_000,
       }),
     ]);
 
@@ -247,7 +247,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>THE SOLANA EMPIRE. MINT LIVE</h1>
+      <h1>THE WEREWOLF PACK. MINT LIVE</h1>
       <main>
         {provider && provider.publicKey ? (
           <>
